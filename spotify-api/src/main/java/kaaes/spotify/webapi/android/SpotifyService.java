@@ -1481,7 +1481,7 @@ public interface SpotifyService {
      * @see <a href="https://developer.spotify.com/web-api/search-item/">Search for an Item</a>
      */
     @GET("/search?type=track")
-    void searchTracks(@Query("q") String q, Callback<TracksPager> callback);
+    void searchTracks(@Query("q") String q, Callback callback);
 
     /**
      * Get Spotify catalog information about tracks that match a keyword string.
