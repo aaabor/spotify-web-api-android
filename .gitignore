@@ -2,6 +2,7 @@
 .*.swp
 build/*
 build
+.vs/
 
 .gradle
 .idea
